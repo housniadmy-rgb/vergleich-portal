@@ -1,0 +1,50 @@
+[
+  {
+    "id":"chatgpt","name":"ChatGPT Plus","slug":"chatgpt","category":"ki-tools","price":20,"priceUnit":"Monat","rating":4.8,"reviewCount":15420,"description":"OpenAIs fortschrittlichster KI-Assistent mit GPT-4o","shortDesc":"Der führende KI-Chatbot für Profis und Kreative","features":["GPT-4o Zugang","DALL-E 3 Bildgenerierung","Advanced Data Analysis","Plugins & GPTs","Web Browsing"],
+    "pros":["Sehr leistungsstark","Große Modellauswahl","Beste Sprachverarbeitung"],"cons":["Kostenpflichtig","Gelegentliche Überlastung"],"affiliateUrl":"https://chat.openai.com","affiliateType":"saas","badge":"Bestseller","featured":true,"image":"/images/chatgpt.png","type":"digital"
+  },
+  {
+    "id":"claude","name":"Claude Pro","slug":"claude","category":"ki-tools","price":20,"priceUnit":"Monat","rating":4.7,"reviewCount":8930,"description":"Anthropics KI-Assistent – sicher, hilfreich und ehrlich","shortDesc":"Idealer KI-Assistent für lange Texte und Analysen","features":["Claude 3.5 Sonnet","200k Token Kontextfenster","Dokument-Analyse","Code Generierung","Prioritäts-Zugang"],
+    "pros":["Riesiges Kontextfenster","Sehr sicherer Umgang","Exzellente Textqualität"],"cons":["Kein Bildgenerierung","Begrenzte Integrationen"],"affiliateUrl":"https://claude.ai","affiliateType":"saas","badge":"Empfehlung","featured":true,"image":"/images/claude.png","type":"digital"
+  },
+  {
+    "id":"midjourney","name":"Midjourney","slug":"midjourney","category":"ki-tools","price":10,"priceUnit":"Monat","rating":4.9,"reviewCount":22100,"description":"Führende KI-Bildgenerierung für professionelle Visuals","shortDesc":"Das beste KI-Tool für beeindruckende Bilder","features":["V6 Modell","4K Auflösung","Inpainting","Style Reference","Kommerzielle Lizenz"],
+    "pros":["Beste Bildqualität","Regelmäßige Updates","Große Community"],"cons":["Nur per Discord","Steile Lernkurve"],"affiliateUrl":"https://midjourney.com","affiliateType":"saas","badge":"Top Rated","featured":true,"image":"/images/midjourney.png","type":"digital"
+  },
+  {
+    "id":"nordvpn","name":"NordVPN","slug":"nordvpn","category":"vpn","price":3.69,"priceUnit":"Monat","rating":4.7,"reviewCount":45200,"description":"Einer der schnellsten und sichersten VPN-Dienste weltweit","shortDesc":"Blitzschnelles VPN mit maximaler Sicherheit","features":["6200+ Server","Double VPN","NordLynx Protokoll","6 Geräte gleichzeitig","No-Log Policy"],
+    "pros":["Sehr schnell","Zuverlässig","Tolle App"],"cons":["Höherer Preis","Monatspreis teurer"],"affiliateUrl":"https://nordvpn.com","affiliateType":"affiliate","badge":"Bestseller","featured":true,"image":"/images/nordvpn.png","type":"digital"
+  },
+  {
+    "id":"expressvpn","name":"ExpressVPN","slug":"expressvpn","category":"vpn","price":6.67,"priceUnit":"Monat","rating":4.6,"reviewCount":31800,"description":"Premium VPN mit dem besten Kundenservice","shortDesc":"Schnell, sicher und überall verfügbar","features":["3000+ Server","Lightway Protokoll","8 Geräte","Split Tunneling","24/7 Support"],
+    "pros":["Sehr einfach","Überall verfügbar","Bester Support"],"cons":["Am teuersten","Etwas langsamer"],"affiliateUrl":"https://expressvpn.com","affiliateType":"affiliate","badge":"Premium","featured":false,"image":"/images/expressvpn.png","type":"digital"
+  },
+  {
+    "id":"hetzner","name":"Hetzner Cloud","slug":"hetzner","category":"hosting","price":4.15,"priceUnit":"Monat","rating":4.8,"reviewCount":12300,"description":"Deutsches Hosting mit bestem Preis-Leistungs-Verhältnis","shortDesc":"Günstigstes und schnellstes Cloud Hosting aus Deutschland","features":["NVMe SSDs","99.9% Uptime","DDoS Schutz","Snapshots","Backup"],
+    "pros":["Sehr günstig","Deutsche Server","Sehr schnell"],"cons":["Weniger Features","Kleines Netzwerk"],"affiliateUrl":"https://hetzner.com","affiliateType":"affiliate","badge":"Preis-Tipp","featured":true,"image":"/images/hetzner.png","type":"digital"
+  },
+  {
+    "id":"notion","name":"Notion","slug":"notion","category":"software","price":10,"priceUnit":"Monat","rating":4.6,"reviewCount":28900,"description":"All-in-One Workspace für Teams und Einzelpersonen","shortDesc":"Der flexibelste Workspace für Produktivität","features":["Unbegrenzte Seiten","Datenbanken","KI-Integration","Team Collaboration","API Zugang"],
+    "pros":["Sehr flexibel","Gute KI Features","Große Community"],"cons":["Lernkurve","Kann langsam sein"],"affiliateUrl":"https://notion.so","affiliateType":"saas","badge":"Empfehlung","featured":true,"image":"/images/notion.png","type":"digital"
+  },
+  {
+    "id":"iphone-16","name":"iPhone 16 Pro","slug":"iphone-16-pro","category":"smartphones","price":1199,"priceUnit":"einmalig","rating":4.8,"reviewCount":9870,"description":"Apples neuestes Flaggschiff mit A18 Pro Chip","shortDesc":"Das beste iPhone aller Zeiten","features":["A18 Pro Chip","48MP Kamerasystem","Titangehäuse","Action Button","USB-C"],
+    "pros":["Beste Performance","Exzellente Kamera","Langer Support"],"cons":["Sehr teuer","Kein Ladegerät"],"affiliateUrl":"https://amazon.de/iphone-16-pro","affiliateType":"amazon","badge":"Bestseller","featured":true,"image":"/images/iphone16.png","type":"hardware"
+  },
+  {
+    "id":"samsung-s25","name":"Samsung Galaxy S25 Ultra","slug":"samsung-s25-ultra","category":"smartphones","price":1299,"priceUnit":"einmalig","rating":4.7,"reviewCount":7650,"description":"Samsungs Ultimate Smartphone mit S Pen","shortDesc":"Maximale Power mit eingebautem S Pen","features":["Snapdragon 8 Elite","200MP Kamera","S Pen","5000mAh Akku","45W Laden"],
+    "pros":["Riesiger Akku","S Pen inklusive","Bestes Display"],"cons":["Sehr groß","Teuer"],"affiliateUrl":"https://amazon.de/galaxy-s25-ultra","affiliateType":"amazon","badge":"Top Pick","featured":true,"image":"/images/s25ultra.png","type":"hardware"
+  },
+  {
+    "id":"macbook-pro-m4","name":"MacBook Pro M4","slug":"macbook-pro-m4","category":"laptops","price":1999,"priceUnit":"einmalig","rating":4.9,"reviewCount":5430,"description":"Apples leistungsstärkstes MacBook mit M4 Pro Chip","shortDesc":"Das beste Laptop für Kreative und Entwickler","features":["M4 Pro Chip","Liquid Retina XDR","22 Stunden Akku","Thunderbolt 5","MagSafe"],
+    "pros":["Unglaubliche Performance","Perfektes Display","Lange Akkulaufzeit"],"cons":["Sehr teuer","Wenige Ports","Kein Windows"],"affiliateUrl":"https://amazon.de/macbook-pro-m4","affiliateType":"amazon","badge":"Empfehlung","featured":true,"image":"/images/macbook-m4.png","type":"hardware"
+  },
+  {
+    "id":"surfshark","name":"Surfshark","slug":"surfshark","category":"vpn","price":2.29,"priceUnit":"Monat","rating":4.5,"reviewCount":19400,"description":"Günstiges VPN mit unbegrenzten Geräten","shortDesc":"Bestes Preis-Leistungs VPN","features":["3200+ Server","Unbegrenzte Geräte","CleanWeb","NoBorders","MultiHop"],
+    "pros":["Sehr günstig","Unbegrenzte Geräte","Gute Geschwindigkeit"],"cons":["Etwas langsamer","Weniger Server"],"affiliateUrl":"https://surfshark.com","affiliateType":"affiliate","badge":"Preis-Tipp","featured":false,"image":"/images/surfshark.png","type":"digital"
+  },
+  {
+    "id":"hostinger","name":"Hostinger","slug":"hostinger","category":"hosting","price":2.59,"priceUnit":"Monat","rating":4.5,"reviewCount":34500,"description":"Günstiges Shared Hosting mit hervorragenden Features","shortDesc":"Bestes günstiges Webhosting für Einsteiger","features":["100GB SSD","Kostenlose Domain","SSL Zertifikat","WordPress Optimiert","hPanel"],
+    "pros":["Sehr günstig","Einfaches Panel","Schneller Support"],"cons":["Begrenzte Ressourcen","Upsells"],"affiliateUrl":"https://hostinger.com","affiliateType":"affiliate","badge":"Budget Pick","featured":false,"image":"/images/hostinger.png","type":"digital"
+  }
+]
