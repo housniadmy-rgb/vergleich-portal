@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "iphone-16-pro-vs-samsung-galaxy-s25-ultra",
+    "title": "iPhone 16 Pro vs Samsung Galaxy S25 Ultra (2026)",
+    "heading": "iPhone 16 Pro vs Samsung Galaxy S25 Ultra",
+    "description": "iPhone 16 Pro oder Galaxy S25 Ultra? Wir vergleichen Kamera, Display, Akku, Leistung und Preis der beiden Top-Smartphones 2026.",
+    "intro": "Die beiden meistverkauften Premium-Smartphones im direkten Duell: Apples iPhone 16 Pro trifft auf Samsungs Galaxy S25 Ultra. Wir vergleichen alle wichtigen Eigenschaften, damit du das richtige Flaggschiff findest.",
+    "category": "smartphones",
+    "productSlugs": ["apple-iphone-16-pro", "samsung-galaxy-s25-ultra"]
+  },
+  {
+    "slug": "beste-smartphones-2026",
+    "title": "Die besten Smartphones 2026 im Vergleich",
+    "heading": "Die besten Smartphones 2026",
+    "description": "Smartphone-Bestenliste 2026: iPhone 16 Pro, Galaxy S25 Ultra, Pixel 9 Pro & iPhone 16 im direkten Vergleich von Kamera, Akku und Preis.",
+    "intro": "Welches ist das beste Smartphone des Jahres? Wir stellen die vier Top-Modelle 2026 gegenüber – von Apple über Samsung bis Google – und zeigen, welches Handy zu welchem Nutzertyp passt.",
+    "category": "smartphones",
+    "productSlugs": [
+      "apple-iphone-16-pro",
+      "samsung-galaxy-s25-ultra",
+      "google-pixel-9-pro",
+      "apple-iphone-16"
+    ]
+  },
+  {
+    "slug": "macbook-air-vs-macbook-pro",
+    "title": "MacBook Air M3 vs MacBook Pro 14 M4",
+    "heading": "MacBook Air M3 vs MacBook Pro 14 M4",
+    "description": "MacBook Air oder MacBook Pro? Vergleich von Leistung, Display, Akku und Preis – so findest du das richtige Apple-Notebook.",
+    "intro": "Air oder Pro? Apples beliebteste Notebooks unterscheiden sich deutlich in Leistung, Display und Preis. Unser Vergleich hilft dir, das passende MacBook für deinen Workflow zu wählen.",
+    "category": "laptops",
+    "productSlugs": ["apple-macbook-air-m3", "apple-macbook-pro-14-m4"]
+  },
+  {
+    "slug": "beste-noise-cancelling-kopfhoerer",
+    "title": "Die besten Noise-Cancelling-Kopfhörer 2026",
+    "heading": "Beste Noise-Cancelling-Kopfhörer 2026",
+    "description": "ANC-Kopfhörer im Vergleich: Sony WH-1000XM6, Bose QuietComfort Ultra & Sennheiser Momentum 4 – Klang, ANC und Akku im Test.",
+    "intro": "Noise Cancelling ist der wichtigste Kaufgrund für Premium-Kopfhörer. Wir vergleichen die drei besten Over-Ear-Modelle 2026 in puncto Klang, ANC-Leistung und Akkulaufzeit.",
+    "category": "kopfhoerer",
+    "productSlugs": [
+      "sony-wh-1000xm6",
+      "bose-quietcomfort-ultra",
+      "sennheiser-momentum-4"
+    ]
+  },
+  {
+    "slug": "ipad-pro-vs-galaxy-tab-s10-ultra",
+    "title": "iPad Pro 13 M4 vs Galaxy Tab S10 Ultra",
+    "heading": "iPad Pro 13 M4 vs Galaxy Tab S10 Ultra",
+    "description": "Premium-Tablet-Vergleich: iPad Pro 13 M4 gegen Samsung Galaxy Tab S10 Ultra – Display, Leistung, Stift und Preis.",
+    "intro": "Die beiden besten Profi-Tablets im Vergleich: Apples iPad Pro 13 M4 mit Tandem-OLED trifft auf Samsungs riesiges Galaxy Tab S10 Ultra. Welches Tablet eignet sich besser für kreatives und produktives Arbeiten?",
+    "category": "tablets",
+    "productSlugs": ["apple-ipad-pro-13-m4", "samsung-galaxy-tab-s10-ultra"]
+  },
+  {
+    "slug": "playstation-5-pro-vs-xbox-series-x",
+    "title": "PlayStation 5 Pro vs Xbox Series X",
+    "heading": "PlayStation 5 Pro vs Xbox Series X",
+    "description": "Konsolen-Duell 2026: PS5 Pro gegen Xbox Series X – Leistung, Spiele, Preis und Ausstattung im direkten Vergleich.",
+    "intro": "Welche Konsole soll es sein? Die leistungsstarke PlayStation 5 Pro trifft auf die Xbox Series X mit Game Pass. Wir vergleichen Hardware, Spielebibliothek und Preis-Leistung.",
+    "category": "gaming",
+    "productSlugs": ["sony-playstation-5-pro", "microsoft-xbox-series-x"]
+  }
+]
