@@ -3,21 +3,21 @@ export interface Product {
   name: string;
   slug: string;
   category: string;
+  brand: string;
   price: number;
-  priceUnit: string;
+  oldPrice?: number;
   rating: number;
   reviewCount: number;
   description: string;
   shortDesc: string;
-  features: string[];
+  specs: Record<string, string>;
   pros: string[];
   cons: string[];
   affiliateUrl: string;
-  affiliateType: 'amazon' | 'saas' | 'affiliate';
-  badge?: string;
+  amazonAsin?: string;
+  badge?: string | null;
   featured: boolean;
   image: string;
-  type: 'digital' | 'hardware';
 }
 
 export interface Category {
@@ -28,6 +28,7 @@ export interface Category {
   icon: string;
   count: number;
   color: string;
+  topBrands?: string[];
 }
 
 export interface Comparison {

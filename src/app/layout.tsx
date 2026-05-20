@@ -13,31 +13,32 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "VergleichPortal – Beste Produkte & Software vergleichen 2026",
-    template: "%s | VergleichPortal",
+    default: "TechVergleich – Beste Elektronik 2026 im Test & Vergleich",
+    template: "%s | TechVergleich",
   },
   description:
-    "Vergleiche KI-Tools, VPN, Hosting, Smartphones & Laptops. Finde das beste Produkt mit echten Bewertungen und aktuellen Preisen.",
-  keywords: ["vergleich", "test", "beste", "KI tools", "VPN", "Hosting", "Smartphone"],
+    "Vergleiche Smartphones, Laptops, Tablets, Kopfhörer und Smartwatches. Echte Bewertungen, aktuelle Preise und die besten Amazon-Angebote 2026.",
+  keywords: ["Smartphone Vergleich", "Laptop Test", "Kopfhörer", "Smartwatch", "Elektronik 2026", "Amazon"],
   openGraph: {
     type: "website",
     locale: "de_DE",
-    siteName: "VergleichPortal",
+    siteName: "TechVergleich",
+    url: "https://techvergleich.de",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@techvergleich",
   },
   robots: { index: true, follow: true },
-  metadataBase: new URL("https://vergleich-portal.de"),
+  metadataBase: new URL("https://techvergleich.de"),
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de" suppressHydrationWarning>
       <head>
-        {/* AdSense placeholder - replace with real script in production */}
-        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" /> */}
+        {/* Google AdSense – in Produktion aktivieren:
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXX" crossOrigin="anonymous" /> */}
       </head>
       <body className={`${inter.variable} font-sans antialiased min-h-screen flex flex-col`}>
         <Providers>

@@ -1,9 +1,82 @@
 [
-  {"id":"ki-tools","name":"KI Tools","slug":"ki-tools","description":"Die besten KI-Tools und Künstliche Intelligenz Software im Vergleich","icon":"Brain","count":24,"color":"purple"},
-  {"id":"software","name":"Software","slug":"software","description":"Business Software, Produktivitätstools und SaaS Anwendungen","icon":"Code","count":31,"color":"blue"},
-  {"id":"hosting","name":"Hosting","slug":"hosting","description":"Webhosting, Cloud Hosting und Server Anbieter im Vergleich","icon":"Server","count":18,"color":"green"},
-  {"id":"vpn","name":"VPN","slug":"vpn","description":"Die sichersten und schnellsten VPN Anbieter 2026","icon":"Shield","count":15,"color":"red"},
-  {"id":"smartphones","name":"Smartphones","slug":"smartphones","description":"Aktuelle Smartphones im großen Vergleich","icon":"Smartphone","count":42,"color":"orange"},
-  {"id":"laptops","name":"Laptops","slug":"laptops","description":"Business Laptops und Gaming Notebooks im Test","icon":"Laptop","count":38,"color":"yellow"},
-  {"id":"elektronik","name":"Elektronik","slug":"elektronik","description":"Tablets, Kopfhörer, Smartwatches und mehr","icon":"Headphones","count":56,"color":"pink"}
+  {
+    "id": "smartphones",
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "description": "Die besten Smartphones 2026 im großen Vergleich – iPhone, Samsung, Google Pixel & mehr",
+    "icon": "Smartphone",
+    "count": 48,
+    "color": "blue",
+    "topBrands": ["Apple", "Samsung", "Google", "OnePlus"]
+  },
+  {
+    "id": "laptops",
+    "name": "Laptops",
+    "slug": "laptops",
+    "description": "Business-Laptops, Gaming-Notebooks und MacBooks im ausführlichen Test",
+    "icon": "Laptop",
+    "count": 36,
+    "color": "purple",
+    "topBrands": ["Apple", "Dell", "Lenovo", "HP", "ASUS"]
+  },
+  {
+    "id": "tablets",
+    "name": "Tablets",
+    "slug": "tablets",
+    "description": "iPads, Android-Tablets und Windows-Tablets im Vergleich",
+    "icon": "Tablet",
+    "count": 22,
+    "color": "green",
+    "topBrands": ["Apple", "Samsung", "Microsoft", "Lenovo"]
+  },
+  {
+    "id": "kopfhoerer",
+    "name": "Kopfhörer",
+    "slug": "kopfhoerer",
+    "description": "In-Ear, Over-Ear und Gaming-Headsets mit Noise Cancelling im Test",
+    "icon": "Headphones",
+    "count": 31,
+    "color": "orange",
+    "topBrands": ["Sony", "Apple", "Bose", "Sennheiser", "JBL"]
+  },
+  {
+    "id": "smartwatches",
+    "name": "Smartwatches",
+    "slug": "smartwatches",
+    "description": "Apple Watch, Galaxy Watch und Fitness-Tracker im großen Vergleich",
+    "icon": "Watch",
+    "count": 19,
+    "color": "red",
+    "topBrands": ["Apple", "Samsung", "Garmin", "Fitbit"]
+  },
+  {
+    "id": "monitore",
+    "name": "Monitore",
+    "slug": "monitore",
+    "description": "Gaming-Monitore, 4K-Displays und Curved Monitore im Test",
+    "icon": "Monitor",
+    "count": 27,
+    "color": "yellow",
+    "topBrands": ["LG", "Samsung", "Dell", "ASUS", "BenQ"]
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming",
+    "slug": "gaming",
+    "description": "PlayStation, Xbox und Nintendo im Konsolen-Vergleich 2026",
+    "icon": "Gamepad2",
+    "count": 15,
+    "color": "pink",
+    "topBrands": ["Sony", "Microsoft", "Nintendo"]
+  },
+  {
+    "id": "zubehoer",
+    "name": "Zubehör",
+    "slug": "zubehoer",
+    "description": "Tastaturen, Mäuse, Webcams und mehr – das beste Setup-Zubehör 2026",
+    "icon": "Keyboard",
+    "count": 43,
+    "color": "teal",
+    "topBrands": ["Logitech", "Razer", "Corsair", "Apple"]
+  }
 ]

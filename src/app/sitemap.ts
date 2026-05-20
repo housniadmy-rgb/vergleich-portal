@@ -4,43 +4,16 @@ import productsData from '@/data/products.json'
 import comparisonsData from '@/data/comparisons.json'
 import blogPostsData from '@/data/blog-posts.json'
 
-const BASE_URL = 'https://vergleich-portal.de'
+const BASE = 'https://techvergleich.de'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
-
-  const staticRoutes: MetadataRoute.Sitemap = [
-    { url: BASE_URL, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
-    { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
+  return [
+    { url: BASE, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
+    { url: `${BASE}/blog`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
+    ...categoriesData.map(c => ({ url: `${BASE}/category/${c.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.85 })),
+    ...comparisonsData.map(c => ({ url: `${BASE}/compare/${c.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 })),
+    ...productsData.map(p => ({ url: `${BASE}/product/${p.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.75 })),
+    ...blogPostsData.map(p => ({ url: `${BASE}/blog/${p.slug}`, lastModified: new Date(p.publishedAt), changeFrequency: 'monthly' as const, priority: 0.7 })),
   ]
-
-  const categoryRoutes: MetadataRoute.Sitemap = categoriesData.map(cat => ({
-    url: `${BASE_URL}/category/${cat.slug}`,
-    lastModified: now,
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }))
-
-  const productRoutes: MetadataRoute.Sitemap = productsData.map(product => ({
-    url: `${BASE_URL}/product/${product.slug}`,
-    lastModified: now,
-    changeFrequency: 'weekly',
-    priority: 0.7,
-  }))
-
-  const compareRoutes: MetadataRoute.Sitemap = comparisonsData.map(comp => ({
-    url: `${BASE_URL}/compare/${comp.slug}`,
-    lastModified: now,
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }))
-
-  const blogRoutes: MetadataRoute.Sitemap = blogPostsData.map(post => ({
-    url: `${BASE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.publishedAt),
-    changeFrequency: 'monthly',
-    priority: 0.7,
-  }))
-
-  return [...staticRoutes, ...categoryRoutes, ...compareRoutes, ...productRoutes, ...blogRoutes]
 }

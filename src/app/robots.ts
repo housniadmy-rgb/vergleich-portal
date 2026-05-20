@@ -2,14 +2,8 @@ import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: ['/api/', '/_next/'],
-      },
-    ],
-    sitemap: 'https://vergleich-portal.de/sitemap.xml',
-    host: 'https://vergleich-portal.de',
+    rules: [{ userAgent: '*', allow: '/', disallow: ['/api/', '/_next/'] }],
+    sitemap: 'https://techvergleich.de/sitemap.xml',
+    host: 'https://techvergleich.de',
   }
 }
