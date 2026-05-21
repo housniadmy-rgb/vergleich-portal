@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Geld verdienen – Vergleichsportal</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>Online Geld verdienen</h1>
+      <p class="hero-sub">Ohne Lager &middot; Ohne Produkte &middot; Ohne Kundenkontakt</p>
+      <p class="hero-desc">Vergleiche die besten Methoden, passiv oder aktiv im Internet Geld zu verdienen.</p>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Alle</button>
+        <button class="filter-btn" data-filter="passiv">Passiv</button>
+        <button class="filter-btn" data-filter="aktiv">Aktiv</button>
+        <button class="filter-btn" data-filter="kreativ">Kreativ</button>
+        <button class="filter-btn" data-filter="invest">Investitionen</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+
+    <!-- COMPARISON TABLE -->
+    <section class="section">
+      <h2>Schnellvergleich</h2>
+      <div class="table-wrapper">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th>Methode</th>
+              <th>Typ</th>
+              <th>Startkapital</th>
+              <th>Aufwand</th>
+              <th>Verdienst</th>
+              <th>Passivität</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#youtube">YouTube / AdSense</a></td>
+              <td><span class="badge kreativ">Kreativ</span></td>
+              <td>0 €</td>
+              <td><span class="stars">★★★★☆</span></td>
+              <td>50 € – 5.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:80%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#affiliate">Affiliate Marketing</a></td>
+              <td><span class="badge passiv">Passiv</span></td>
+              <td>0 – 100 €</td>
+              <td><span class="stars">★★★☆☆</span></td>
+              <td>100 € – 10.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:85%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#stock">Stock Fotos / Videos</a></td>
+              <td><span class="badge kreativ">Kreativ</span></td>
+              <td>0 €</td>
+              <td><span class="stars">★★☆☆☆</span></td>
+              <td>20 € – 1.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:90%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#kurs">Online-Kurse</a></td>
+              <td><span class="badge passiv">Passiv</span></td>
+              <td>0 – 50 €</td>
+              <td><span class="stars">★★★★☆</span></td>
+              <td>200 € – 20.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:95%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#blog">Blog / SEO</a></td>
+              <td><span class="badge passiv">Passiv</span></td>
+              <td>0 – 50 €</td>
+              <td><span class="stars">★★★★☆</span></td>
+              <td>50 € – 5.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:75%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#etf">ETF / Dividenden</a></td>
+              <td><span class="badge invest">Invest</span></td>
+              <td>ab 500 €</td>
+              <td><span class="stars">★☆☆☆☆</span></td>
+              <td>50 € – 2.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:98%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#umfrage">Umfragen / GPT</a></td>
+              <td><span class="badge aktiv">Aktiv</span></td>
+              <td>0 €</td>
+              <td><span class="stars">★★☆☆☆</span></td>
+              <td>10 € – 200 €/Mo</td>
+              <td><span class="passive-bar" style="--w:20%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#musik">Musik Lizenzierung</a></td>
+              <td><span class="badge kreativ">Kreativ</span></td>
+              <td>0 €</td>
+              <td><span class="stars">★★★☆☆</span></td>
+              <td>50 € – 3.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:88%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#app">App / SaaS</a></td>
+              <td><span class="badge passiv">Passiv</span></td>
+              <td>0 – 1.000 €</td>
+              <td><span class="stars">★★★★★</span></td>
+              <td>500 € – 100.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:92%"></span></td>
+            </tr>
+            <tr>
+              <td><a href="#print">Print-on-Demand</a></td>
+              <td><span class="badge passiv">Passiv</span></td>
+              <td>0 €</td>
+              <td><span class="stars">★★★☆☆</span></td>
+              <td>50 € – 2.000 €/Mo</td>
+              <td><span class="passive-bar" style="--w:82%"></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- DETAIL CARDS -->
+    <section class="section cards-section">
+      <h2>Detailbeschreibungen</h2>
+      <div class="cards" id="cards-grid">
+
+        <div class="card" id="youtube" data-type="kreativ">
+          <div class="card-icon">&#127909;</div>
+          <div class="card-badge kreativ">Kreativ</div>
+          <h3>YouTube & AdSense (Geld per Anblick)</h3>
+          <p>Du erstellst Videos und verdienst Geld pro Aufruf (View) durch Werbeeinblendungen. Je mehr Aufrufe, desto mehr Einnahmen — ohne dass du selbst etwas verkaufst oder mit Zuschauern sprechen musst.</p>
+          <ul>
+            <li><strong>Verdienst:</strong> ~0,50 € – 5 € pro 1.000 Views</li>
+            <li><strong>Voraussetzung:</strong> 1.000 Abonnenten + 4.000 Stunden Watchtime</li>
+            <li><strong>Plattformen:</strong> YouTube, Rumble</li>
+            <li><strong>Tipp:</strong> Nischen-Content (Tutorial, Review, Doku) skaliert am besten</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Kein Lager</span>
+            <span class="tag">Kein Kundenkontakt</span>
+            <span class="tag">Passives Einkommen</span>
+          </div>
+        </div>
+
+        <div class="card" id="affiliate" data-type="passiv">
+          <div class="card-icon">&#128279;</div>
+          <div class="card-badge passiv">Passiv</div>
+          <h3>Affiliate Marketing</h3>
+          <p>Du empfiehlst Produkte anderer Unternehmen über einen speziellen Link. Kauft jemand darüber, bekommst du eine Provision — ohne Lager, ohne Versand, ohne Kundengespräche.</p>
+          <ul>
+            <li><strong>Provision:</strong> 1 % – 70 % je nach Anbieter</li>
+            <li><strong>Top-Programme:</strong> Amazon PartnerNet, Digistore24, Awin</li>
+            <li><strong>Kanal:</strong> Blog, YouTube, Instagram, E-Mail-Liste</li>
+            <li><strong>Beste Nischen:</strong> Finanzen, Software, Gesundheit, Reise</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Kein Lager</span>
+            <span class="tag">Kein Kundenkontakt</span>
+            <span class="tag">Sehr skalierbar</span>
+          </div>
+        </div>
+
+        <div class="card" id="stock" data-type="kreativ">
+          <div class="card-icon">&#128247;</div>
+          <div class="card-badge kreativ">Kreativ</div>
+          <h3>Stock Fotos & Videos</h3>
+          <p>Lade Fotos oder Videos auf Stockplattformen hoch. Jedes Mal wenn jemand dein Bild kauft oder lizenziert, bekommst du Geld — ohne Interaktion mit dem Käufer.</p>
+          <ul>
+            <li><strong>Verdienst:</strong> 0,25 € – 100 € pro Verkauf</li>
+            <li><strong>Plattformen:</strong> Shutterstock, Adobe Stock, Getty Images, Pond5</li>
+            <li><strong>Best Practices:</strong> Viele Uploads = mehr passive Einnahmen</li>
+            <li><strong>Tipp:</strong> KI-generierte Bilder sind auf manchen Plattformen erlaubt</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Einmal hochladen</span>
+            <span class="tag">Dauerhaft verdienen</span>
+            <span class="tag">Kein Kundenkontakt</span>
+          </div>
+        </div>
+
+        <div class="card" id="kurs" data-type="passiv">
+          <div class="card-icon">&#127891;</div>
+          <div class="card-badge passiv">Passiv</div>
+          <h3>Online-Kurse verkaufen</h3>
+          <p>Einmal einen Video-Kurs aufnehmen, auf eine Plattform hochladen — und tausendfach verkaufen. Kein direkter Kundenkontakt nötig, die Plattform übernimmt alles.</p>
+          <ul>
+            <li><strong>Plattformen:</strong> Udemy, Teachable, Skillshare, Digistore24</li>
+            <li><strong>Preis:</strong> 10 € – 500 € pro Kurs</li>
+            <li><strong>Nischen:</strong> Programmieren, Marketing, Design, Sprachen</li>
+            <li><strong>Aufwand:</strong> Hoch bei Erstellung, dann fast null</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">100 % digital</span>
+            <span class="tag">Beliebig skalierbar</span>
+            <span class="tag">Kein Lager</span>
+          </div>
+        </div>
+
+        <div class="card" id="blog" data-type="passiv">
+          <div class="card-icon">&#9997;&#65039;</div>
+          <div class="card-badge passiv">Passiv</div>
+          <h3>Blog mit AdSense & Affiliate</h3>
+          <p>Schreibe Artikel zu einer Nische, ranke bei Google (SEO) und verdiene automatisch durch Werbeanzeigen (AdSense) und Affiliate-Links — im Schlaf.</p>
+          <ul>
+            <li><strong>AdSense:</strong> 2 € – 30 € pro 1.000 Besucher</li>
+            <li><strong>Zeitraum:</strong> 6 – 18 Monate bis erste Einnahmen</li>
+            <li><strong>Tools:</strong> WordPress, Rank Math, Ahrefs</li>
+            <li><strong>Tipp:</strong> Nischen wie Finanzen, Versicherungen zahlen am meisten</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">SEO-basiert</span>
+            <span class="tag">Langfristig</span>
+            <span class="tag">Automatisiert</span>
+          </div>
+        </div>
+
+        <div class="card" id="etf" data-type="invest">
+          <div class="card-icon">&#128200;</div>
+          <div class="card-badge invest">Invest</div>
+          <h3>ETF & Dividendenaktien</h3>
+          <p>Investiere in Aktien oder ETFs die regelmäßig Dividenden ausschütten. Komplett passiv — kein Kundenkontakt, kein Produkt, keine Arbeit nach dem Kauf.</p>
+          <ul>
+            <li><strong>Rendite:</strong> 3 % – 8 % p.a. (Dividende + Kursgewinn)</li>
+            <li><strong>Broker:</strong> Scalable Capital, Trade Republic, Comdirect</li>
+            <li><strong>Empfohlen:</strong> MSCI World ETF, S&amp;P 500</li>
+            <li><strong>Startkapital:</strong> Ab 25 € / Monat als Sparplan möglich</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Kapital nötig</span>
+            <span class="tag">Langfristig</span>
+            <span class="tag">Niedrigstes Risiko</span>
+          </div>
+        </div>
+
+        <div class="card" id="umfrage" data-type="aktiv">
+          <div class="card-icon">&#128203;</div>
+          <div class="card-badge aktiv">Aktiv</div>
+          <h3>Umfragen & GPT-Seiten</h3>
+          <p>Verdiene kleine Beträge durch das Ausfüllen von Online-Umfragen, das Ansehen von Werbung oder das Testen von Apps. Kein Kontakt mit anderen Menschen nötig.</p>
+          <ul>
+            <li><strong>Verdienst:</strong> 1 € – 20 € pro Stunde</li>
+            <li><strong>Plattformen:</strong> Swagbucks, Toluna, LifePoints, GreenPanthera</li>
+            <li><strong>Realistische Einschätzung:</strong> Nebenverdienst, kein Haupteinkommen</li>
+            <li><strong>Vorteil:</strong> Sofort startbar, null Vorkenntnisse nötig</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Sofort startbar</span>
+            <span class="tag">Kein Kapital</span>
+            <span class="tag">Begrenzt skalierbar</span>
+          </div>
+        </div>
+
+        <div class="card" id="musik" data-type="kreativ">
+          <div class="card-icon">&#127925;</div>
+          <div class="card-badge kreativ">Kreativ</div>
+          <h3>Musik & Soundlizenzierung</h3>
+          <p>Erstelle Musik, Beats oder Soundeffekte und lade sie auf Lizenzplattformen hoch. Jedes Mal wenn jemand deine Musik nutzt, verdienst du Geld — ohne Kontakt.</p>
+          <ul>
+            <li><strong>Plattformen:</strong> AudioJungle, Pond5, Artlist, Epidemic Sound</li>
+            <li><strong>Verdienst:</strong> 5 € – 200 € pro Lizenz</li>
+            <li><strong>Zusatz:</strong> Streaming-Einnahmen über Spotify / Apple Music</li>
+            <li><strong>Tipp:</strong> Royalty-free Beats auf YouTube + Beat-Store</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Einmal erstellen</span>
+            <span class="tag">Dauerhaft lizenzieren</span>
+            <span class="tag">Kein Kundenkontakt</span>
+          </div>
+        </div>
+
+        <div class="card" id="app" data-type="passiv">
+          <div class="card-icon">&#128241;</div>
+          <div class="card-badge passiv">Passiv</div>
+          <h3>App / SaaS / Tool entwickeln</h3>
+          <p>Entwickle eine App, ein Web-Tool oder eine Software (SaaS) und verkaufe Abonnements oder Einmalkäufe. Einmal gebaut — unbegrenzt skalierbar.</p>
+          <ul>
+            <li><strong>Modelle:</strong> Monatliches Abo, Einmalkauf, Freemium</li>
+            <li><strong>Plattformen:</strong> App Store, Google Play, Gumroad, Stripe</li>
+            <li><strong>Ohne Programmierung:</strong> No-Code Tools (Bubble, Glide, Adalo)</li>
+            <li><strong>Höchstes Potenzial</strong> aller Methoden</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Höchstes Potenzial</span>
+            <span class="tag">Technisch</span>
+            <span class="tag">100 % skalierbar</span>
+          </div>
+        </div>
+
+        <div class="card" id="print" data-type="passiv">
+          <div class="card-icon">&#128083;</div>
+          <div class="card-badge passiv">Passiv</div>
+          <h3>Print-on-Demand (digitale Designs)</h3>
+          <p>Designe T-Shirts, Tassen oder Poster. Der Anbieter druckt und versendet alles — du hast kein Lager, keinen Versand und keinen Kundenkontakt. Nur das Design kommt von dir.</p>
+          <ul>
+            <li><strong>Plattformen:</strong> Merch by Amazon, Redbubble, Spreadshirt</li>
+            <li><strong>Marge:</strong> 2 € – 20 € pro Verkauf</li>
+            <li><strong>Tools:</strong> Canva, Adobe Illustrator, Midjourney für Designs</li>
+            <li><strong>Tipp:</strong> Trend-Nischen (Events, Memes) verkaufen am besten</li>
+          </ul>
+          <div class="card-meta">
+            <span class="tag">Kein Lager</span>
+            <span class="tag">Kein Versand</span>
+            <span class="tag">Kein Kundenkontakt</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TOP PICKS -->
+    <section class="section">
+      <h2>Empfehlungen je nach Situation</h2>
+      <div class="picks-grid">
+        <div class="pick-card">
+          <h4>&#128640; Du willst sofort starten (kein Kapital)</h4>
+          <ol>
+            <li>Umfragen (Swagbucks, Toluna)</li>
+            <li>Stock Fotos auf Shutterstock</li>
+            <li>YouTube-Kanal starten</li>
+            <li>Affiliate-Blog aufbauen</li>
+          </ol>
+        </div>
+        <div class="pick-card">
+          <h4>&#128181; Du hast 500–5.000 € zum Investieren</h4>
+          <ol>
+            <li>ETF-Sparplan (Scalable / Trade Republic)</li>
+            <li>Blog kaufen (Flippa.com)</li>
+            <li>Ads-Budget für Affiliate-Marketing</li>
+          </ol>
+        </div>
+        <div class="pick-card">
+          <h4>&#128187; Du kannst programmieren / bist technisch</h4>
+          <ol>
+            <li>SaaS / Web-Tool entwickeln</li>
+            <li>Chrome Extension verkaufen</li>
+            <li>API-basiertes Produkt auf Gumroad</li>
+          </ol>
+        </div>
+        <div class="pick-card">
+          <h4>&#127775; Du willst maximales passives Einkommen</h4>
+          <ol>
+            <li>Online-Kurs (Udemy / Teachable)</li>
+            <li>Affiliate-Blog in Finanz-Nische</li>
+            <li>YouTube + AdSense Kombination</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section">
+      <h2>Häufige Fragen</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">Was bedeutet "Geld per Anblick verdienen"?</button>
+          <div class="faq-a">
+            <p>Das bedeutet, du wirst pro View (Aufruf/Anblick) bezahlt. YouTube AdSense zahlt dir z.B. für jede 1.000 Aufrufe deiner Videos. Ähnlich funktionieren Display-Werbeanzeigen auf Blogs (Impressionen) oder bezahlte Werbeanzeigen auf GPT-Seiten (Paid-to-View).</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Ist das alles legal und seriös?</button>
+          <div class="faq-a">
+            <p>Ja — alle hier genannten Methoden sind legal und seriös. Du musst Einnahmen jedoch dem Finanzamt melden. Ab ca. 520 € im Jahr besteht in Deutschland Steuerpflicht. Ein Gewerbe kann ab bestimmten Beträgen nötig sein.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Wie viel kann ich realistisch verdienen?</button>
+          <div class="faq-a">
+            <p>Mit Umfragen 10–200 € / Monat als Nebenverdienst. Mit YouTube oder einem Blog nach 1–2 Jahren 500–5.000 €/Monat möglich. Online-Kurse und Apps können theoretisch unbegrenzt skalieren — dafür ist der Aufbau aufwändiger.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Welche Methode hat den schnellsten Einstieg?</button>
+          <div class="faq-a">
+            <p>Umfragen und GPT-Seiten sind sofort startbar ohne Vorkenntnisse. Stock-Fotos kann man direkt hochladen. Affiliate-Marketing und YouTube brauchen 3–12 Monate Aufbauzeit, zahlen aber langfristig viel mehr.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Vergleichsportal &copy; 2025 &mdash; Alle Angaben ohne Gewähr. Keine Steuerberatung.</p>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+</body>
+</html>
